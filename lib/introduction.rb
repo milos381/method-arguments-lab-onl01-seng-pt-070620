@@ -3,3 +3,7 @@ def introduction(name)
 
 end
 introduction("Josh")
+def introduction_with_language(name, language)
+  puts "#{name} learning to program in #{language}"
+end
+introduction_with_language("I am", "Ember.js")
